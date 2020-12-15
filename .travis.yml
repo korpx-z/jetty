@@ -6,7 +6,7 @@ env:
     - TEST_DIR="$PWD/11.0-jdk11/test/"
     - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/11.0-jdk11/"
-    - REPO="quay.io/ibmz/jetty"
+    - REPO="quay.io/ibm/jetty"
     - TAG="$REPO:11"
 before_script: 
   - cd $TEST_DIR && chmod +x $TEST_SCRIPT 
