@@ -1,5 +1,5 @@
 # DO NOT EDIT. Edit baseDockerfile and use update.sh
-FROM quay.io/ibmz/openjdk:11.0.8
+FROM quay.io/ibm/openjdk:11.0.8
 
 ENV JETTY_VERSION 11.0.0.beta3
 ENV JETTY_HOME /usr/local/jetty
