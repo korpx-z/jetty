@@ -8,7 +8,7 @@ echo -e "\n $ANSI_YELLOW *** testing docker run - jetty *** $ANSI_RESET \n"
 
 echo -e "$ANSI_YELLOW Display current directory: $ANSI_RESET"
 
-docker run -d -p 80:8080 -p 443:8443 --name jet quay.io/ibmz/jetty:latest
+docker run -d -p 80:8080 -p 443:8443 --name jet quay.io/ibm/jetty:latest
 
 docker logs jet
 
